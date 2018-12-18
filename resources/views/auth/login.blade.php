@@ -59,7 +59,7 @@
                                     {{ __('Forgot Your Password?') }}
                                 </a>
 
-                                <a href="">Google</a>
+                                <a href="{{ route('oauth.google') }}">Google</a>
                             </div>
                         </div>
                     </form>
